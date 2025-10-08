@@ -4,81 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "a1f23b04218bbd12",
+        "id": "c2e2e4d38a5dd733",
         "type": "tabs",
         "children": [
           {
-            "id": "85efc4693d79f33f",
+            "id": "a160a005fd4c94d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PHP develop/Libraries/Package Repository Informations.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Package Repository Informations"
-            }
-          },
-          {
-            "id": "5bcf566ce95b0c6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PHP develop/Libraries/PHPSpreedsheet.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PHPSpreedsheet"
-            }
-          },
-          {
-            "id": "bb0ba3c4e003cf60",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PHP develop/Libraries/Carban.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Carban"
-            }
-          },
-          {
-            "id": "458feb0750155873",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Ports/open port.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "open port"
-            }
-          },
-          {
-            "id": "19667e12d3d1c08e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Github/fork (work with).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "fork (work with)"
+              "title": "README"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -208,8 +152,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
             }
           },
           {
@@ -218,8 +162,8 @@
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-ghost",
+              "title": "mermaid-toolbar-view"
             }
           }
         ],
@@ -232,55 +176,62 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "canvas:Create new canvas": false
+      "canvas:Create new canvas": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-memos:Thino": false,
+      "obsidian-journey-plugin:Find Journey": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "19667e12d3d1c08e",
+  "active": "a160a005fd4c94d1",
   "lastOpenFiles": [
-    "Linux/Manjaro/config.md",
-    "Linux/Manjaro/AUR repos.md",
-    "Linux/Manjaro/after install steps.md",
-    "Vim/at start/vim file +number.md",
-    "Music/Linux setting/enable MIDI port.md",
-    "Music/Linux setting/Advanced Linux Sound Architecture.md",
-    "Ansible/Windows playbook.md",
-    "Ansible/installation on Windows.md",
-    "Github/fork (work with).md",
-    "Git/_push.autoSetupRemote.md",
-    "Github",
-    "Git/_ user email.md",
-    "Testing/Cypress.md",
-    "Networking/SSH/ssh copy files by rsync.md",
-    "Testing",
-    "Linux Commands/backup and remote storage.md",
-    "Linux Commands/controlling processes.md",
-    "Linux Commands/disks and filesystems.md",
-    "Networking/Ports/ports in use.md",
-    "Linux Commands/shell job control.md",
-    "Linux Commands/scheduling jobs.md",
+    "Linux/update grub _ fedora.md",
+    "Linux/stop evolution calendar notifications.md",
+    "Linux/FTP/lftp.md",
+    "Linux/chsh.md",
+    "Linux/SSH/nccm.md",
+    "Linux/FTP",
+    "Linux/SSH",
+    "Linux/Linux Commands/xset.md",
+    "Linux/Linux Commands/tr.md",
+    "Linux/Linux Commands/symlink.md",
+    "Linux/Manjaro/pacman-help.md",
+    "Linux/Linux Commands/check disks.md",
+    "Linux/Linux Commands/grep.md",
+    "Linux/gpg.md",
+    "Linux/directory permissions in Linux.md",
+    "Linux/cockpit.md",
+    "Linux/FTP/ftp _ sftp.md",
+    "Linux/folders structure.md",
+    "Linux/Linux Commands/find.md",
+    "Linux/Awk/cut.md",
+    "Linux/Linux Commands/curl.md",
+    "Ansible/for Windows",
+    "Ansible/for Windows/Windows playbook.md",
+    "Python/datové typy.md",
+    "Ansible/for Windows/installation on Windows.md",
+    "Networking/HTTP Status Code.md",
+    "Networking/HTTP status codes.gif",
     "README.md",
-    "MongoDB/import, export MongoDB.md",
+    "GoLang/Idiomatic Golang.md",
+    "Logs/graylog.md",
+    "Github",
+    "Testing",
     "Neo4j",
-    "ReactJS/accessibility.md",
-    "SSL/generate key, certificate and CA.md",
-    "SSL/generate self signed SSL key and certification.md",
-    "Shell programming/The test String Comparisons.md",
-    "Shell programming/The test Numeric Comparisons.md",
-    "Networking/SSH",
+    "Linux/SSH",
     "Networking/Ports",
     "Logs",
     "SSL",
     "_resources/decorator.png",
     "_resources/bridge.png",
     "_resources/abstract factory.png",
-    "pojmy/paradoxy",
-    "metody",
-    "literatura/books to buy",
     "Bez názvu.canvas",
     "nancy-2.jpg",
     "Untitled.canvas"
